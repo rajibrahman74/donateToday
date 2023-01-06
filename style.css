@@ -20,6 +20,11 @@ common style
 }
 
 .all-section-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
 }
 .donate-btn {
   background: #ff5959;
@@ -70,7 +75,7 @@ nav a span img {
 nav a span p {
   font-weight: bolder;
   color: rgb(2, 2, 110);
-  font-size: 16px;
+  font-size: 17px;
 }
 
 nav ul {
@@ -115,10 +120,83 @@ hero section
 }
 .hero-section .hero-description {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px;
   text-align: center;
-  color: navy;
+  color: white;
   margin: 0 352px 30px 396px;
   color: white;
+}
+
+/*
+Today donate section 
+ */
+
+.today-donate {
+  margin: 113px 130px;
+}
+
+.today-donate-description {
+  margin: 20px 0 50px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+}
+
+.today-donate .today-donate-amounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.today-donate .today-donate-amounts .amount {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.today-donate .today-donate-amounts .amount h4 {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 36px;
+  color: #707070;
+}
+
+.today-donate .today-donate-amounts .today {
+  width: 162px;
+  height: 150px;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+
+.today-donate .today-donate-amounts .today .today-donation {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 36px;
+  color: #ff5959;
+}
+
+.today-donate .other-amount {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #b3b3b3;
+  margin: 60px 0 10px 0;
+}
+
+.today-donate hr {
+  border: 1px solid #dadada;
+  width: 765px;
+  height: 0px;
+  margin: 0 auto;
 }
