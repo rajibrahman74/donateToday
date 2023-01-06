@@ -3,6 +3,8 @@ font family
  */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap");
+
 /*
 common style 
  */
@@ -110,13 +112,11 @@ hero section
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1515px;
   height: 650px;
   background-image: url("images/heroBannar.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* margin: 0 auto; */
 }
 .hero-section .hero-heading {
   font-weight: 700;
@@ -361,5 +361,88 @@ How to contribution section styles
 /*
 Contact sections 
  */
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-title {
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
 
+.contact p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+  margin: 20px 300px 50px 300px;
+}
 
+.contact .contact-container {
+  width: 809px;
+  height: 200px;
+  background: rgba(255, 89, 89, 0.1);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-container input[type="email"] {
+  width: 275px;
+  height: 48px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  color: #aa9f9f;
+  border: none;
+  padding: 0 18px;
+}
+
+.contact .contact-container input[type="submit"] {
+  width: 157px;
+  height: 48px;
+  border: none;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*
+Footer section styles 
+ */
+
+footer {
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  background: #0b0d17;
+  margin-top: 130px;
+}
+
+footer h4 {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+}
+footer small {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #d9dbe1;
+}
