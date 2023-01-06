@@ -1,0 +1,76 @@
+/*
+font family 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap");
+
+/*
+common style 
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.all-section-title {
+}
+.donate-btn {
+}
+.contribute-btn {
+}
+
+/*
+header section and navigation all styles 
+ */
+
+header {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.06);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+nav span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav > a {
+  text-decoration: none;
+}
+nav a span img {
+  width: 70px;
+  height: 70px;
+}
+nav a span p {
+  font-weight: bolder;
+  color: rgb(2, 2, 110);
+  font-size: 17px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
