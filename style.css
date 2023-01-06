@@ -11,6 +11,7 @@ common style
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -21,6 +22,15 @@ common style
 .all-section-title {
 }
 .donate-btn {
+  background: #ff5959;
+  border-radius: 5px;
+  width: 130px;
+  height: 45px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 .contribute-btn {
 }
@@ -32,6 +42,10 @@ header section and navigation all styles
 header {
   background-color: white;
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.06);
+  /* margin-bottom: 32px; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav {
@@ -56,7 +70,7 @@ nav a span img {
 nav a span p {
   font-weight: bolder;
   color: rgb(2, 2, 110);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 nav ul {
@@ -66,11 +80,45 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+/*
+hero section 
+ */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1515px;
+  height: 650px;
+  background-image: url("images/heroBannar.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hero-section .hero-heading {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  text-align: center;
+  color: white;
+  margin: 157px 285px 20px 328px;
+}
+.hero-section .hero-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: navy;
+  margin: 0 352px 30px 396px;
+  color: white;
 }
