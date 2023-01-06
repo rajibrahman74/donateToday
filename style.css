@@ -38,6 +38,15 @@ common style
   cursor: pointer;
 }
 .contribute-btn {
+  background: #ff5959;
+  border-radius: 5px;
+  width: 175px;
+  height: 48px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /*
@@ -138,6 +147,7 @@ Today donate section
 }
 .donate-title {
   margin-top: 130px;
+  text-align: center;
 }
 
 .today-donate-description {
@@ -208,12 +218,20 @@ Today donate section
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 130px;
 }
 
 /*
 Donate plan section styles 
  */
+
+.donate-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate-plan .donate-plan-heading {
+  margin-top: 130px;
+}
 
 .donate-plan .donate-plan-description {
   font-weight: 400;
@@ -226,6 +244,7 @@ Donate plan section styles
 
 .donate-plan .donate-plans {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -267,4 +286,41 @@ Donate plan section styles
   line-height: 24px;
   text-align: justify;
   color: #707070;
+}
+
+/*
+How to contribution section styles 
+ */
+
+.contributions {
+    display: flex;
+    flex-direction: column;
+}
+
+.contributions .contribution-content-one {
+  display: flex;
+  gap: 83px;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 110px;
+}
+
+.contributions .contribution-content-one .content-one .contribution-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contributions .contribution-content-one .content-one .first-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.contributions .contribution-content-one .content-one p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 30px;
 }
