@@ -293,8 +293,8 @@ How to contribution section styles
  */
 
 .contributions {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contributions .contribution-content-one {
@@ -310,7 +310,10 @@ How to contribution section styles
   margin-bottom: 20px;
 }
 
-.contributions .contribution-content-one .content-one .first-content-description {
+.contributions
+  .contribution-content-one
+  .content-one
+  .first-content-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -318,9 +321,45 @@ How to contribution section styles
   margin-bottom: 20px;
 }
 .contributions .contribution-content-one .content-one p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #707070;
-    margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 30px;
 }
+
+.contributions .contribution-content-two {
+  display: flex;
+  gap: 83px;
+  align-items: center;
+}
+
+.contributions .contribution-content-two .content-two .contribution-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contributions
+  .contribution-content-two
+  .content-two
+  .first-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.contributions .contribution-content-two .content-two p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+/*
+Contact sections 
+ */
+
+
