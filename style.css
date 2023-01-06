@@ -29,8 +29,9 @@ common style
   color: #121212;
 }
 .donate-btn {
-  background: #ff5959;
-  border-radius: 5px;
+  /* background: #ff5959; */
+  background: rgba(255, 89, 89, 0.84);
+  border-radius: 20px;
   width: 130px;
   height: 45px;
   color: white;
@@ -38,6 +39,12 @@ common style
   border: none;
   font-size: 16px;
   cursor: pointer;
+  border: transparent;
+}
+
+.donate-btn:hover {
+  border: 3px solid #fa3e3e;
+  transition: 0.2s ease-in-out;
 }
 .contribute-btn {
   background: #ff5959;
@@ -77,6 +84,9 @@ nav span {
 }
 nav > a {
   text-decoration: none;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 5px;
+  border-radius: 5px;
 }
 nav a span img {
   width: 70px;
@@ -84,7 +94,7 @@ nav a span img {
 }
 nav a span p {
   font-weight: bolder;
-  color: rgb(2, 2, 110);
+  color: black;
   font-size: 17px;
 }
 
@@ -97,11 +107,19 @@ nav ul li {
   list-style-type: none;
   font-size: 16px;
   font-weight: bold;
+  padding: 12px 18px;
+  border-radius: 20px;
+  border: 2.2px solid transparent;
+  background: rgba(255, 89, 89, 0.1);
 }
-
+nav ul li:hover {
+  border: 2.2px solid #fa3e3e;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(28, 27, 27);
 }
 
 /*
