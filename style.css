@@ -47,7 +47,6 @@ header section and navigation all styles
 header {
   background-color: white;
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.06);
-  /* margin-bottom: 32px; */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -108,7 +107,7 @@ hero section
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .hero-section .hero-heading {
   font-weight: 700;
@@ -133,12 +132,17 @@ Today donate section
  */
 
 .today-donate {
-  margin: 113px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate-title {
+  margin-top: 130px;
 }
 
 .today-donate-description {
-  margin: 20px 0 50px 0;
-  text-align: center;
+  margin: 20px 300px 50px 300px;
+  text-align: justify;
   font-weight: 400;
   font-size: 17px;
   line-height: 28px;
@@ -198,5 +202,69 @@ Today donate section
   border: 1px solid #dadada;
   width: 765px;
   height: 0px;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+.today-donate span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+/*
+Donate plan section styles 
+ */
+
+.donate-plan .donate-plan-description {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+  margin: 20px 300px 50px 300px;
+}
+
+.donate-plan .donate-plans {
+  display: flex;
+  gap: 24px;
+}
+
+.donate-plan .donate-plans .plans-one {
+  width: 360px;
+  height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 63px 22px 54px 23px;
+}
+
+.donate-plan .donate-plans .plans-two {
+  width: 360px;
+  height: 352px;
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+  padding: 63px 22px 54px 23px;
+}
+
+.donate-plan .donate-plans .plans-three {
+  width: 360px;
+  height: 352px;
+  background: #fff4d6;
+  border-radius: 5px;
+  padding: 63px 22px 54px 23px;
+}
+
+.donate-plans .plan-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #121212;
+  margin: 31px 0 18px 0;
+}
+
+.donate-plans .plan-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #707070;
 }
